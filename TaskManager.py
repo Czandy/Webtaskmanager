@@ -15,7 +15,6 @@ def add_task():
 
 
 st.title("Task Manager")
-st.subheader("This is your new task manager")
 st.write("Use this web application to create and keep track of your tasks.")
 
 for index, task in enumerate(tasks):
